@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compresseur d'images multiples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Compresseur d'images multiples</h1>
+    <input type="file" id="upload" accept="image/*" multiple>
+    <div id="imagesContainer"></div>
+    <button id="downloadAllBtn" style="display: none;">Télécharger toutes les images compressées</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
+
